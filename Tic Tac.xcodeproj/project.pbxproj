@@ -11,6 +11,8 @@
 		1CA3898B271056E8003110BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA3898A271056E8003110BC /* ContentView.swift */; };
 		1CA3898D271056EB003110BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA3898C271056EB003110BC /* Assets.xcassets */; };
 		1CA38990271056EB003110BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA3898F271056EB003110BC /* Preview Assets.xcassets */; };
+		1CA38997271061F5003110BC /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA38996271061F5003110BC /* Alerts.swift */; };
+		1CA38999271317A6003110BC /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA38998271317A6003110BC /* GameViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		1CA3898A271056E8003110BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1CA3898C271056EB003110BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CA3898F271056EB003110BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1CA38996271061F5003110BC /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		1CA38998271317A6003110BC /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				1CA38988271056E8003110BC /* Tic_TacApp.swift */,
 				1CA3898A271056E8003110BC /* ContentView.swift */,
+				1CA38998271317A6003110BC /* GameViewModel.swift */,
 				1CA3898C271056EB003110BC /* Assets.xcassets */,
 				1CA3898E271056EB003110BC /* Preview Content */,
+				1CA38996271061F5003110BC /* Alerts.swift */,
 			);
 			path = "Tic Tac";
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA38999271317A6003110BC /* GameViewModel.swift in Sources */,
 				1CA3898B271056E8003110BC /* ContentView.swift in Sources */,
+				1CA38997271061F5003110BC /* Alerts.swift in Sources */,
 				1CA38989271056E8003110BC /* Tic_TacApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
